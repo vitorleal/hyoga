@@ -13,12 +13,10 @@ var db *gorm.DB
 func GetInstance() *gorm.DB {
 	if db == nil {
 		var err interface{}
-
 		db, err = gorm.Open("postgres", getConnectionString())
 
 		if err != nil {
 			log.Error(err)
-			panic("error at database connection")
 		}
 	}
 
@@ -32,9 +30,9 @@ func getConnectionString() (connect string) {
 	port := config.DB_PORT
 	connect = fmt.Sprintf(
 			"host=%s user=%s password=%s port=%s",
-			host,
 			user,
-			pass,
+			password,
+			database,
 			port
 		)
 	return
