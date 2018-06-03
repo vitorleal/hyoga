@@ -1,0 +1,2 @@
+ERROR: 2018/06/02 19:42:37 fiscalog.go:60: dial tcp: lookup DATABASE_URL on 127.0.1.1:53: no such host
+ERROR: 2018/06/03 12:57:51 fiscalog.go:60: dial tcp: lookup DATABASE_URL on 127.0.1.1:53: no such host
