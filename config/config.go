@@ -2,6 +2,7 @@ package config
 
 const DEV_SERVER_PORT = "8888"
 
-const DB_HOST = "DATABASE_URL"
-const DB_USER = "oimaxbpiwbfnob"
-const DB_PASS = "f7f16d066634d967016c4a238022c65d230104e96979f8e4141c8a181ce6dacc"
+const DB_HOST="DATABASE_URL"
+const DB_USER="koafzxhfazbzvl"
+const DB_PASS="cedbc652e2d0c17e9f59969b19b10daa4d9c398ee4454cb2ed18fa4c6e7c3428"
+const DB_PORT=5432

@@ -29,11 +29,13 @@ func getConnectionString() (connect string) {
 	host := config.DB_HOST
 	user := config.DB_USER
 	pass := config.DB_PASS
+	port := config.DB_PORT
 	connect = fmt.Sprintf(
-			"host=%s user=%s password=%s",
+			"host=%s user=%s password=%s port=%s",
 			host,
 			user,
-			pass
+			pass,
+			port
 		)
 	return
 }
