@@ -27,6 +27,13 @@ func GetInstance() *gorm.DB {
 
 func getConnectionString() (connect string) {
 	host := config.DB_HOST
-	connect = fmt.Sprintf("host=%s", host)
+	user := config.DB_USER
+	pass := config.DB_PASS
+	connect = fmt.Sprintf(
+			"host=%s user=%s password=%s",
+			host,
+			user,
+			pass
+		)
 	return
 }
