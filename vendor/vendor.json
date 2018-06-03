@@ -13,6 +13,12 @@
 			"path": "github.com/jinzhu/gorm",
 			"revision": "82eb9f8a5bbb5e6b929d2f0ae5b934e6a253f94e",
 			"revisionTime": "2018-05-12T06:29:00Z"
+		},
+		{
+			"checksumSHA1": "Sf/CFFl00e8nN8DDKaT2dKLUaFI=",
+			"path": "github.com/jinzhu/gorm/dialects/postgres",
+			"revision": "82eb9f8a5bbb5e6b929d2f0ae5b934e6a253f94e",
+			"revisionTime": "2018-05-12T06:29:00Z"
 		}
 	],
 	"rootPath": "github.com/fiscaluno/hyoga"
