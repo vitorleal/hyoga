@@ -9,7 +9,6 @@ import(
 )
 
 func All(w http.ResponseWriter, r *http.Request) {
-    w.Write([]byte("teste"))
     institutions := institution.All()
 
     response, _ := json.Marshal(institutions)

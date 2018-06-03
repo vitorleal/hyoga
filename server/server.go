@@ -5,6 +5,8 @@ import(
     "net/http"
     "github.com/fiscaluno/hyoga/config"
     "github.com/fiscaluno/hyoga/server/routes"
+    _ "github.com/fiscaluno/hyoga/database/migrations"
+    
 )
 
 func Start() {

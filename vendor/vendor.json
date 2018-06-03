@@ -3,124 +3,16 @@
 	"ignore": "test",
 	"package": [
 		{
-			"checksumSHA1": "BWQrxuiKulbNdvgQhKHZcEV/7xo=",
-			"path": "github.com/fiscaluno/hyoga",
-			"revision": "1f9532a20197f51fc419aaa34fe9e9eac288d71b",
-			"revisionTime": "2018-06-02T22:43:15Z"
-		},
-		{
-			"checksumSHA1": "B/Rd6ldSzmNALjTjoo+zxXCys9w=",
-			"path": "github.com/fiscaluno/hyoga/config",
-			"revision": "1f9532a20197f51fc419aaa34fe9e9eac288d71b",
-			"revisionTime": "2018-06-02T22:43:15Z"
-		},
-		{
-			"checksumSHA1": "TaATvLl78xZm7/iqa02eZ41DC1Q=",
-			"path": "github.com/fiscaluno/hyoga/controllers",
-			"revision": "1f9532a20197f51fc419aaa34fe9e9eac288d71b",
-			"revisionTime": "2018-06-02T22:43:15Z"
-		},
-		{
-			"checksumSHA1": "rBpsM+gAe5+rL7XW278TeYsQLpM=",
-			"path": "github.com/fiscaluno/hyoga/database",
-			"revision": "1f9532a20197f51fc419aaa34fe9e9eac288d71b",
-			"revisionTime": "2018-06-02T22:43:15Z"
-		},
-		{
-			"checksumSHA1": "zk7MgA2jzr7l7DAf/QYgvuPECHs=",
-			"path": "github.com/fiscaluno/hyoga/database/migrations",
-			"revision": "1f9532a20197f51fc419aaa34fe9e9eac288d71b",
-			"revisionTime": "2018-06-02T22:43:15Z"
-		},
-		{
-			"checksumSHA1": "bpAbRaTOc/4NZ8oDkdyhit3gn2M=",
-			"path": "github.com/fiscaluno/hyoga/fiscalog",
-			"revision": "1f9532a20197f51fc419aaa34fe9e9eac288d71b",
-			"revisionTime": "2018-06-02T22:43:15Z"
-		},
-		{
-			"checksumSHA1": "EbPNDEXpPE1DhXkUwIk58lwY7/Y=",
-			"path": "github.com/fiscaluno/hyoga/models",
-			"revision": "1f9532a20197f51fc419aaa34fe9e9eac288d71b",
-			"revisionTime": "2018-06-02T22:43:15Z"
-		},
-		{
-			"checksumSHA1": "vlXO/87mCtRdHbv+owWbcsWjAlM=",
-			"path": "github.com/fiscaluno/hyoga/models/institution",
-			"revision": "1f9532a20197f51fc419aaa34fe9e9eac288d71b",
-			"revisionTime": "2018-06-02T22:43:15Z"
-		},
-		{
-			"checksumSHA1": "7tF2+DIAwsXBpbxgEt2/JeoJJy4=",
-			"path": "github.com/fiscaluno/hyoga/server",
-			"revision": "1f9532a20197f51fc419aaa34fe9e9eac288d71b",
-			"revisionTime": "2018-06-02T22:43:15Z"
-		},
-		{
-			"checksumSHA1": "+y+BHt+9eGgsjk2HXDcEXTD4MwM=",
-			"path": "github.com/fiscaluno/hyoga/server/routes",
-			"revision": "1f9532a20197f51fc419aaa34fe9e9eac288d71b",
-			"revisionTime": "2018-06-02T22:43:15Z"
-		},
-		{
-			"checksumSHA1": "jG3DOcEsXMKec2sq12ZVqEdHWnE=",
-			"path": "github.com/go-sql-driver/mysql",
-			"revision": "7413002f368fba928eefaf762c91a2acfeabdf68",
-			"revisionTime": "2018-05-30T10:02:58Z"
-		},
-		{
 			"checksumSHA1": "TyrXOBHvvLtawmxfdjrju452928=",
 			"path": "github.com/gorilla/mux",
-			"revision": "e0b5abaaae35242fa74372f26c24107711702a4e",
-			"revisionTime": "2018-05-26T22:17:21Z"
+			"revision": "c85619274f5d55a67491010f883a91f568b3a9b0",
+			"revisionTime": "2018-05-17T17:36:23Z"
 		},
 		{
 			"checksumSHA1": "nlEiwqdbwY1eclAGG1xcC+XPV9M=",
 			"path": "github.com/jinzhu/gorm",
 			"revision": "82eb9f8a5bbb5e6b929d2f0ae5b934e6a253f94e",
 			"revisionTime": "2018-05-12T06:29:00Z"
-		},
-		{
-			"checksumSHA1": "eECxSkwh0WmhLwaxHfkvcLOWS08=",
-			"path": "github.com/jinzhu/gorm/dialects/mysql",
-			"revision": "82eb9f8a5bbb5e6b929d2f0ae5b934e6a253f94e",
-			"revisionTime": "2018-05-12T06:29:00Z"
-		},
-		{
-			"checksumSHA1": "Sf/CFFl00e8nN8DDKaT2dKLUaFI=",
-			"path": "github.com/jinzhu/gorm/dialects/postgres",
-			"revision": "82eb9f8a5bbb5e6b929d2f0ae5b934e6a253f94e",
-			"revisionTime": "2018-05-12T06:29:00Z"
-		},
-		{
-			"checksumSHA1": "4eelJOSLZoDzLuaJvgilOBVNovU=",
-			"path": "github.com/jinzhu/inflection",
-			"revision": "04140366298a54a039076d798123ffa108fff46c",
-			"revisionTime": "2018-03-08T03:36:59Z"
-		},
-		{
-			"checksumSHA1": "s6eyIXpJ7VAU06FM27GcEBM/5lo=",
-			"path": "github.com/lib/pq",
-			"revision": "90697d60dd844d5ef6ff15135d0203f65d2f53b8",
-			"revisionTime": "2018-05-23T17:54:26Z"
-		},
-		{
-			"checksumSHA1": "EnMmNGgpDa5sNw0Zs5RhvNDcP2g=",
-			"path": "github.com/lib/pq/hstore",
-			"revision": "90697d60dd844d5ef6ff15135d0203f65d2f53b8",
-			"revisionTime": "2018-05-23T17:54:26Z"
-		},
-		{
-			"checksumSHA1": "ATnwV0POluBNQEMjPdylodz0oK0=",
-			"path": "github.com/lib/pq/oid",
-			"revision": "90697d60dd844d5ef6ff15135d0203f65d2f53b8",
-			"revisionTime": "2018-05-23T17:54:26Z"
-		},
-		{
-			"checksumSHA1": "ewGq4nGalpCQOHcmBTdAEQx1wW0=",
-			"path": "github.com/mitchellh/mapstructure",
-			"revision": "bb74f1db0675b241733089d5a1faa5dd8b0ef57b",
-			"revisionTime": "2018-05-11T14:21:26Z"
 		}
 	],
 	"rootPath": "github.com/fiscaluno/hyoga"
