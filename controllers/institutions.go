@@ -10,14 +10,15 @@ import(
 
 func All(w http.ResponseWriter, r *http.Request) {
     institutions := institution.All()
-
     response, _ := json.Marshal(institutions)
+    w.Header().Set("Content-Type", "application/json")
     w.Write([]byte(response))
 }
 
 func ById(w http.ResponseWriter, r *http.Request)  {
     id, _ := strconv.Atoi(mux.Vars(r)["id"])
     response, _ := json.Marshal(institution.Find(id))
+    w.Header().Set("Content-Type", "application/json")
     w.Write([]byte(response))
 }
 
