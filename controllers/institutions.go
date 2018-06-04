@@ -36,3 +36,8 @@ func New(w http.ResponseWriter, r *http.Request) {
 
     w.Write([]byte("Success"))
 }
+
+func Delete(w http.ResponseWriter, r *http.Request) {
+    id, _ := strconv.Atoi(mux.Vars(r)["id"])
+    institution.Delete(id)
+}

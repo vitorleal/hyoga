@@ -30,6 +30,11 @@ func Find(id int) (institution *Institution) {
 	return
 }
 
+func Delete(id int) {
+	institution := Find(id)
+	db.Delete(&institution)
+}
+
 // All institutions
 func All() (institutions []Institution) {
 	db.Find(&institutions)

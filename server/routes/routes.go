@@ -16,4 +16,5 @@ func loadRoutes(router *mux.Router) {
     routes.HandleFunc("/", controllers.All).Methods("GET")
     routes.HandleFunc("/{id:[0-9]+}", controllers.ById).Methods("GET")
     routes.HandleFunc("/", controllers.New).Methods("POST")
+    routes.HandleFunc("/{id:[0-9]+}", controllers.Delete).Methods("DELETE")
 }
