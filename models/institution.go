@@ -12,5 +12,5 @@ type Institution struct {
 	Email    string `gorm:"size:40",json:Email`
 	Website  string `gorm:"size:30",json:Website`
 	Phone    string `gorm:"size:10",json:Phone`
-	ImageUri string `gorm:"size:50",json:ImageUri`
+	ImageUri string `gorm:"size:250",json:ImageUri`
 }
