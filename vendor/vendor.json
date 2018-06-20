@@ -3,6 +3,18 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "7Noy2Ny1I1Xq7BfAdrcYm5eeT0s=",
+			"path": "github.com/fiscaluno/pandorabox",
+			"revision": "0c1d34a452c0326db82fcae78973819d5ec85b70",
+			"revisionTime": "2018-05-23T01:43:29Z"
+		},
+		{
+			"checksumSHA1": "UOHFqLuIgvczH5zXx/m9w2i+U14=",
+			"path": "github.com/fiscaluno/pandorabox/mu",
+			"revision": "0c1d34a452c0326db82fcae78973819d5ec85b70",
+			"revisionTime": "2018-05-23T01:43:29Z"
+		},
+		{
 			"checksumSHA1": "TyrXOBHvvLtawmxfdjrju452928=",
 			"path": "github.com/gorilla/mux",
 			"revision": "c85619274f5d55a67491010f883a91f568b3a9b0",
