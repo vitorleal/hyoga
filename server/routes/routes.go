@@ -3,10 +3,12 @@ package routes
 import(
     "github.com/gorilla/mux"
     "github.com/fiscaluno/hyoga/controllers"
+    "github.com/fiscaluno/pandorabox/mu"
 )
 
 func GetRouter() (router *mux.Router) {
     router = mux.NewRouter()
+    router.Use(mu.AuthMiddleware)
     loadRoutes(router)
     return
 }
