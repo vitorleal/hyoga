@@ -1,11 +1,8 @@
 FROM golang:1.10
 
-WORKDIR /go/src/app
+WORKDIR /go/src/github.com/fiscaluno/hyoga
 COPY . .
 
-RUN go get -d -v ./...
-RUN go install -v ./...
+RUN go get -u github.com/kardianos/govendor
+RUN govendor sync
 
-WORKDIR /go/bin
-
-CMD ["app"]

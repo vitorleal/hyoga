@@ -31,7 +31,7 @@ func getConnectionString() (connect string) {
 	pass := config.DB_PASS
 	port := config.DB_PORT
 	connect = fmt.Sprintf(
-			"host=%s user=%s password=%s port=%s dbname=%s",
+			"host=%s user=%s password=%s port=%s dbname=%s sslmode=disable",
 			host,
 			user,
 			pass,
